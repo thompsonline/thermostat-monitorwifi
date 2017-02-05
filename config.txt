@@ -1,0 +1,14 @@
+[logging]
+# Logging:
+# logfile = full path to log file
+# loglevel = info,warn,debug
+logfile = /var/log/monitorwifi.log
+loglevel = debug
+logrotation = midnight
+logcount = 3
+
+[main]
+#checkfrequency: number of seconds between checking if the network is up or down
+checkfrequency = 60
+#failcount: number of checks before restarting the system
+failcount = 15
